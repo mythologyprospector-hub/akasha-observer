@@ -1,0 +1,13 @@
+repo: akasha-observer
+
+role: monitoring
+layer: introspection
+
+description: >
+  Observes system behavior, tracks execution state, and records internal system activity.
+
+interfaces:
+  - akasha-discovery
+  - akasha-forge
+
+status: active
