@@ -1,13 +1,18 @@
 repo: akasha-observer
-
 role: monitoring
 layer: introspection
+description: 'Observes system behavior, tracks execution state, and records internal
+  system activity.
 
-description: >
-  Observes system behavior, tracks execution state, and records internal system activity.
-
+  '
 interfaces:
-  - akasha-discovery
-  - akasha-forge
-
-status: active
+- akasha-discovery
+- akasha-forge
+status:
+  maturity: experimental
+  confidence: low
+  active: true
+name: akasha-observer
+type: module
+domain: systems
+depends_on: []
