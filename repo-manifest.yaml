@@ -15,4 +15,5 @@ status:
 name: akasha-observer
 type: module
 domain: systems
-depends_on: []
+depends_on:
+- akasha-world
