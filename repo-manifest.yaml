@@ -1,5 +1,5 @@
 repo: akasha-observer
-role: monitoring
+role: observer
 layer: introspection
 description: 'Observes system behavior, tracks execution state, and records internal
   system activity.
